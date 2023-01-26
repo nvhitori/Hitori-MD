@@ -32,10 +32,10 @@
 #### FITUR 📍
 | Fitur | Check |
 |--------|--------|
-| **Menfess** |[➕](https://github.com/nvhitori) |
-| **Added NSFW Realshit** |[➕](https://github.com/nvhitori) |
-| **Display List Menu** |[➕](https://github.com/nvhitori) |
-| **PP Bot Panjang** |[➕](https://github.com/nvhitori) |
+| **Menfess** |[✔️](https://github.com/nvhitori) |
+| **Added NSFW Realshit** |[✔️](https://github.com/nvhitori) |
+| **Display List Menu** |[✔️](https://github.com/nvhitori) |
+| **PP Bot Panjang** |[✔️](https://github.com/nvhitori) |
 | **Downloader** |[✔️](https://github.com/nvhitori) |
 | **Internet** |[✔️](https://github.com/nvhitori) |
 | **Game Rpg** |[✔️](https://github.com/nvhitori) |
