@@ -114,7 +114,7 @@ apt install wget curl git ffmpeg imagemagick build-essential libcairo2-dev libpa
 
 ---------
 
-[ INSTALLING NODEJS & XPENTA-MD]
+[ INSTALLING NODEJS & HITORI-MD]
 
 ```bash
 ubuntu
