@@ -12,9 +12,8 @@
 <p align="center">
 <a href="https://instagram.com/nvkenn_"><img title="Author" src="https://img.shields.io/badge/AUTHOR-V4LL-blue.svg?style=for-the-badge&logo=github"></a>
 </p>
----------
 
-## ```Whatsapp``` <a href=""> <img align="left" alt="SIEGRIN | Whastapp" width="26px" src="https://github.com/siegrin/siegrin/blob/main/Assets/Whatsapp.svg" />
+## ```Whatsapp``` <img align="left" alt="SIEGRIN | Whastapp" width="26px" src="https://github.com/siegrin/siegrin/blob/main/Assets/Whatsapp.svg" />
 [![BOT WHATSAPP](https://img.shields.io/badge/WhatsApp%20BOT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6281323870860) 
 [![ONWER](https://img.shields.io/badge/Owner%20BOT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6282125276167) 
 [![GROUP OFFICIAL](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/KL2YTdMq2np6QIhas42RCa) 
