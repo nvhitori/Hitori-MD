@@ -1,7 +1,7 @@
 {
-  "name": "X P E N T A",
+  "name": "X H I T O R I",
   "version": "1.0.0",
-  "description": "<p align=\"center\"> <img src=\"https://telegra.ph/file/6ab4daac226292a112540.jpg\" alt=\"GOPALASU\" width=\"500\"/>",
+  "description": "<p align=\"center\"> <img src=\"https://telegra.ph/file/aede6ae7a8c057449db29.jpg\" alt=\"V4LL\" width=\"500\"/>",
   "main": "index.js",
   "type": "module",
   "directories": {
@@ -26,16 +26,16 @@
     "MD",
     "baileys-md"
   ],
-  "homepage": "https://github.com/VarrelKun/PentagramMD",
+  "homepage": "https://github.com/nvhitori/Hitori-MD",
   "author": {
-    "name": "Gopalasu"
+    "name": "V4LL"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VarrelKun/PentagramMD.git"
+    "url": "git+https://github.com/nvhitori/Hitori-MD.git"
   },
   "bugs": {
-    "url": "https://github.com/VarrelKun/PentagramMD/issues"
+    "url": "https://github.com/nvhitori/Hitori-MD/issues"
   },
   "license": "ISC",
   "dependencies": {
