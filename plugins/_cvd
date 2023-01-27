@@ -1,0 +1,25 @@
+let handler  = async (m, { conn, usedPrefix: _p }) => {
+let url = ppk[Math.floor(Math.random() * ppk.length)]
+	conn.sendButton(m.chat, 'Apa Coba', wm, url, [['Sip','.kt']],m)
+}
+
+handler.customPrefix = /^(abi|abu|ramat|Rahmat|rahmat|mat|woi|woe)$/i
+handler.command = /^(abi|abu|ramat|Rahmat|rahmat|mat|woi|woe)$/i
+
+handler.owner = false
+handler.mods = false
+handler.premium = false
+handler.group = false
+handler.private = false
+handler.admin = false
+handler.botAdmin = false
+
+handler.fail = null
+
+export default handler 
+
+global.ppk = [
+"https://telegra.ph/file/5ee70d322f55cd0c15c2a.jpg", 
+"https://telegra.ph/file/66d9a958a6407935c79f9.jpg",
+"https://telegra.ph/file/69c3fc401f9f8a3d4f21b.jpg",
+ ]
