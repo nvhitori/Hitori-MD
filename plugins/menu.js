@@ -25,7 +25,7 @@ const defaultMenu = {
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	let tags
 	let teks = `${args[0]}`.toLowerCase()
-  let arrayMenu = ['all', 'anime', 'action', 'downloader', 'image', 'update', 'maker', 'edukasi', 'news', 'random', 'xp', 'islamic', 'stiker', 'rpg', 'kerangajaib', 'quotes', 'admin', 'group', 'premium', 'internet', 'anonymous', 'nulis', 'tools', 'fun', 'database','quran', 'vote', 'audio', 'jadibot', 'nsfw', 'info', 'owner', 'nocategory']
+  let arrayMenu = ['all', 'anime', 'action', 'downloader', 'image', 'game', 'update', 'maker', 'edukasi', 'news', 'random', 'xp', 'islamic', 'stiker', 'rpg', 'kerangajaib', 'quotes', 'admin', 'group', 'premium', 'internet', 'anonymous', 'nulis', 'tools', 'fun', 'database','quran', 'vote', 'audio', 'jadibot', 'nsfw', 'info', 'owner', 'nocategory']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
   'main': 'Main',
@@ -67,6 +67,9 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
   }
   if (teks == 'image') tags = {
     'image': 'Image'
+  }
+if (teks == 'game') tags = {
+    'game': 'Game'
   }
   if (teks == 'rpg') tags = {
     'rpg': 'Rpg'
