@@ -3,7 +3,7 @@
 </p>
 <h1 align="center">H1TORI</h1>
 <p align="center">
-  <a href="https://github.com/nvhitori"><img src="http://readme-typing-svg.herokuapp.com?color=FFFFFF&center=true&vCenter=true&multiline=false&lines=HITORI+Multi+Device;Base+ori+by+BochilGaming;Re-code+By+V4LL;Give+star+and+forks+this+Repo+:D;Follow+My+Github" alt="UwU">
+  <a href="https://github.com/nvhitori"><img src="http://readme-typing-svg.herokuapp.com?color=FFFFFF&center=true&vCenter=true&multiline=false&lines=HITORI+Multi+Device;Base+ori+by+BochilGaming;Recode+By+Letta;Re-code+By+V4LL;Give+star+and+forks+this+Repo+:D;Follow+My+Github" alt="UwU">
 </p>
 
 <p align="center">
@@ -61,6 +61,9 @@
 - Owner Name [Here](https://github.com/VarrelKun/PentagramMD/blob/4931979eddb7e0522a1af38cf966db8d8fb063de/config.js#L65)
 - Bot Name [Here](https://github.com/VarrelKun/PentagramMD/blob/4931979eddb7e0522a1af38cf966db8d8fb063de/config.js#L64)
 ---------
+## `GET SESSION`
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@nvhitori/Hitori-Multi-Device-Session?v=1)
+
 
 ## ```Heroku Buildpack```
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nvhitori/Hitori-MD)
