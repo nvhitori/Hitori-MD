@@ -229,11 +229,11 @@ conn.sendButton(m.chat, 'Hello world!', '@BochilGaming', 'https://github.com/Boc
 
 
 ## ```Thanks to ✨```
-* [`Allah SWT`](https://github.com/)
-* [`My parents`](https://github.com/Jikarinka)
-* [`All Friends`](https://github.com/Jikarinka)
-* [`All Contributors`](https://github.com/Jikarinka)
-* [`All Creator Bot`](https://github.com/Jikarinka)
+* [`Allah SWT`](https://github.com/nvhitori)
+* [`My parents`](https://github.com/nvhitori)
+* [`All Friends`](https://github.com/nvhitori)
+* [`All Contributors`](https://github.com/nvhitori)
+* [`All Creator Bot`](https://github.com/nvhitori)
 * [`Adiwajshing`](https://github.com/adiwajshing/Baileys)
 * [`Nurutomo`](https://github.com/nurutomi)
 * [`BochilGaming`](https://github.com/bochilgaming)
