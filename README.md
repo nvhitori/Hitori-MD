@@ -57,9 +57,9 @@
 
 ## `SETTING`
 
-- Owner Number [Here](https://github.com/VarrelKun/PentagramMD/blob/4931979eddb7e0522a1af38cf966db8d8fb063de/config.js#L63)
-- Owner Name [Here](https://github.com/VarrelKun/PentagramMD/blob/4931979eddb7e0522a1af38cf966db8d8fb063de/config.js#L65)
-- Bot Name [Here](https://github.com/VarrelKun/PentagramMD/blob/4931979eddb7e0522a1af38cf966db8d8fb063de/config.js#L64)
+- Owner Number [Here](https://github.com/nvhitori/Hitori-MD/blob/4931979eddb7e0522a1af38cf966db8d8fb063de/config.js#L65)
+- Owner Name [Here](https://github.com/nvhitori/D/blob/4931979eddb7e0522a1af38cf966db8d8fb063de/config.js#L65)
+- Bot Name [Here](https://github.com/nvhitori/Hitori-MD/blob/4931979eddb7e0522a1af38cf966db8d8fb063de/config.js#L64)
 ---------
 ## `GET SESSION`
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@nvhitori/Hitori-Multi-Device-Session?v=1)
