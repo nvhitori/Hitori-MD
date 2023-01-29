@@ -23,6 +23,7 @@
 |--------|--------|
 | **TO-ANIME** |[➕](https://github.com/nvhitori) |
 | **Added SendVirtex** |[➕](https://github.com/nvhitori) |
+| **OpenAi** |[➕](https://github.com/nvhitori) |
 ---------
 #### KELEBIHAN 📍
 | Kelebihan | Check |
