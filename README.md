@@ -16,7 +16,7 @@
   </a>
   <a href="https://github.com/nvhitori/Hitori-MD/issues">
     <img title="Hitori-MD-Multi-Device-Issues" src="https://img.shields.io/github/issues-raw/nvhitori/Hitori-MD?label=Issues&color=%23ff9aa2&style=flat-square" />
-  </a>
+</p>
 </div>
 <div align="center">
   <a href="https://github.com/nvhitori/followers">
