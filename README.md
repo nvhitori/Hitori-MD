@@ -230,7 +230,7 @@ conn.sendButton(m.chat, 'Hello world!', '@BochilGaming', 'https://github.com/Boc
 
 
 ## ```Thanks to ✨```
-* [`Allah SWT`](https://github.com/nvhitori)
+* [`Allah SWT`]
 * [`My parents`](https://github.com/nvhitori)
 * [`All Friends`](https://github.com/nvhitori)
 * [`All Contributors`](https://github.com/nvhitori)
