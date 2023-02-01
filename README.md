@@ -13,7 +13,6 @@
 <a href="https://instagram.com/nvkenn_"><img title="Author" src="https://img.shields.io/badge/AUTHOR-V4LL-blue.svg?style=for-the-badge&logo=github"></a>
 </p>
 <a href="https://www.codefactor.io/repository/github/nvhitori/hitori-md"><img src="https://www.codefactor.io/repository/github/nvhitori/hitori-md/badge" alt="CodeFactor" /></a>
-    <img title="Hitori-MD-Multi-Device-CodeFactor" src="https://img.shields.io/codefactor/grade/github/nvhitori/Hitori-MD/master?color=blue&label=CodeFactor&style=flat-square">
   </a>
   <a href="https://github.com/nvhitori/Hitori-MD/issues">
     <img title="Hitori-MD-Multi-Device-Issues" src="https://img.shields.io/github/issues-raw/nvhitori/Hitori-MD?label=Issues&color=%23ff9aa2&style=flat-square" />
