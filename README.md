@@ -12,29 +12,15 @@
 <p align="center">
 <a href="https://instagram.com/nvkenn_"><img title="Author" src="https://img.shields.io/badge/AUTHOR-V4LL-blue.svg?style=for-the-badge&logo=github"></a>
 </p>
-<a href="https://www.codefactor.io/repository/github/nvhitori/hitori-md"><img src="https://www.codefactor.io/repository/github/nvhitori/hitori-md/badge" alt="CodeFactor" /></a>
-  </a>
-  <a href="https://github.com/nvhitori/Hitori-MD/issues">
-    <img title="Hitori-MD-Multi-Device-Issues" src="https://img.shields.io/github/issues-raw/nvhitori/Hitori-MD?label=Issues&color=%23ff9aa2&style=flat-square" />
+<p align="center">
+<a href="https://www.codefactor.io/repository/github/nvhitori/Hitori-MD"><img src="https://www.codefactor.io/repository/github/nvhitori/Hitori-MD/badge" alt="CodeFactor" /></a>
 </p>
-<div align="center">
-  <a href="https://github.com/nvhitori/followers">
-    <img title="Hitori-MD-Multi-Device-Followers" src="https://img.shields.io/github/followers/nvhitori?label=Folls&color=%23ff9aa2&style=flat-square">
-  </a>
-  <a href="https://github.com/nvhitori/Hitori-MD/stargazers/">
-    <img title="Stars" src="https://img.shields.io/github/stars/nvhitori/Hitori-MD?label=Stars&color=%23ffb7b2&style=flat-square">
-  </a>
-  <a href="https://github.com/nvhitori/Hitori-MD/network/members">
-    <img title="Hitori-MD-Multi-Device-Forks" src="https://img.shields.io/github/forks/nvhitori/Hitori-MD?label=Forks&color=%23ffdac1&style=flat-square">
-  </a>
-  <a href="https://github.com/nvhitori/Hitori-MD/watchers">
-    <img title="Hitori-MD-Multi-Device-Watching" src="https://img.shields.io/github/watchers/nvhitori/Hitori-MD?label=Watchers&color=%23e2f0cb&style=flat-square">
-  </a>
-  <a href="https://github.com/nvhitori/Hitori-MD/blob/master/LICENSE">
-    <img title="Hitori-MD-Multi-Device-License" src="https://img.shields.io/badge/License-GPL_3.0_or_later-blue.svg?color=%23b5ead7&style=flat-square"/>
-  </a>
-  <a href="https://hits.seeyoufarm.com">
-    <img title="Hitori-MD-Multi-Device-Hits" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fnvhitori%2FHitori-MD&count_bg=%23c7ceea&title_bg=%23555555&icon=probot.svg&icon_color=%23c7ceea&title=Hits&edge_flat=true"/>
+<p align="center">
+<a href="https://github.com/nvhitori/followers"><img title="Followers" src="https://img.shields.io/github/followers/nvhitori?color=blue&style=flat-square"></a>
+<a href="https://github.com/nvhitori/Hitori-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/nvhitori/Hitori-MD?color=red&style=flat-square"></a>
+<a href="https://github.com/nvhitori/Hitori-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/nvhitori/Hitori-MD?color=red&style=flat-square"></a>
+<a href="https://github.com/nvhitori/Hitori-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/nvhitori/Hitori-MD?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fnvhitori%2FHitori-MD&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
   </a>
 </div>
 <div align="center">
