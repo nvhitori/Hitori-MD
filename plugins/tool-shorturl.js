@@ -1,5 +1,3 @@
-// ❗ ATUR APIKEYNYA DULU SEBELUM LAPOR OWNER!
-
 import fetch from 'node-fetch'
 
 let handler = async (m, { conn, usedPrefix, args }) => {
@@ -13,6 +11,7 @@ const sections = [
 	    {title: "LinkPoi", rowId: ".short " + args[0] + " linkpoi"},
 	    {title: "Bitly", rowId: ".short " + args[0] + " bitly"},
 	    {title: "OuO", rowId: ".short " + args[0] + " ouo"},
+	    {title: "Shrtco", rowId: ".short " + args[0] + " shrtco"},
 	]
     },
 ]
@@ -33,7 +32,7 @@ let tesk = '🚀 *ʟɪɴᴋ:* '
 let pros = '_*ᴄ ᴏ ɴ ᴠ ᴇ ʀ ᴛ ɪ ɴ ɢ . . .*_'
 //TINY
 if (args[1] == "tinyurl") {
-	let tiny = await (await fetch(`https://pentagrp.herokuapp.com/api/short/tiny?url=${args[0]}&apikey=penTagram`)).json()
+	let tiny = await (await fetch(`https://api.lolhuman.xyz/api/shortlink?apikey=${global.lolkey}&url=${args[0]}`)).json()
 m.reply(pros).then(_ => conn.reply(m.chat, `${tesk}${tiny.result}`,m))
 }
 //--------------
@@ -47,19 +46,26 @@ if (args[1] == "linkpoi") {
 
 //BITLY
 if (args[1] == "bitly") {
-	let bit = await (await fetch(`https://api.xteam.xyz/shorturl/bitly?url=${args[0]}&APIKEY=NezukoTachibana281207`)).json()
+	let bit = await (await fetch(`https://api.xteam.xyz/shorturl/bitly?url=${args[0]}&APIKEY=ebb6251cc00f9c63`)).json()
 	m.reply(pros).then(_=> conn.reply(m.chat, `${tesk}${bit.result.link}`,m))
 }
 //------------
 
 //OuO
 if (args[1] == "ouo") {
-	let ouo = await (await fetch(`https://api.lolhuman.xyz/api/ouoshortlink?apikey=983f0c4893b36ad1e0681b50&url=${args[0]}`)).json()
+	let ouo = await (await fetch(`https://api.lolhuman.xyz/api/ouoshortlink?apikey=${global.lolkey}&url=${args[0]}`)).json()
+	m.reply(pros).then(_=> conn.reply(m.chat, `${tesk}${ouo.result}`,m))
+	}
+//------------
+
+//Shortco
+if (args[1] == "shrtco") {
+	let ouo = await (await fetch(`https://api.lolhuman.xyz/api/shortlink2?apikey=${global.lolkey}&url=${args[0]}`)).json()
 	m.reply(pros).then(_=> conn.reply(m.chat, `${tesk}${ouo.result}`,m))
 	}
 }
 handler.help = ['short <url> <type>']
 handler.tags = ['internet']
 handler.command = /^(short(url)?)$/i
-
+handler.limit = true
 export default handler

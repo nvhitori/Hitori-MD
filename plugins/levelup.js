@@ -19,10 +19,10 @@ Kurang *${max - user.exp}* lagi! ✨
 *🎉 C O N G R A T S 🎉*
 *${before}* ➔ *${user.level}* [ *${user.role}* ]`.trim()
         try {
-            const img = await levelup(teks, user.level)
-            conn.sendButton(m.chat, str, botdate, img, [['INVENTORY', '.inv']], m)
+            const thumbdoc = await levelup(teks, user.level)
+            conn.sendButton(m.chat, str, botdate, thumbdoc, [['INVENTORY', '.inv']], m)
         } catch (e) {
-            conn.sendButton(m.chat, str, botdate, img, [['INVENTORY', '.inv']], m)
+            conn.sendButton(m.chat, str, botdate, thumbdoc, [['INVENTORY', '.inv']], m)
         }
     }
 }

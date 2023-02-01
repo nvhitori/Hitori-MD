@@ -1,44 +1,51 @@
-let handler = async(m, { conn, text, args, command, usedPrefix }) => {
-	if (!text) throw `[ MENFESS ]\nFormat : *${usedPrefix + command} nomor | nama | pesan untuknya*\n\nContoh : *${usedPrefix + command} 628xxxxxxxxxx | hai kamu*`
-	if (text.includes('|')) {
-		args[0] = text.split(`|`)[0].replaceAll(' ','')
-		args[1] = text.split(`|`)[1]
-		args[2] = text.split(`|`)[2]
-	} else {
-		args[1] = args.slice(1).join(' ')
-	}
-	let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : args[0] ? (args[0].replace(/[@ .+-]/g, '') + '@s.whatsapp.net') : ''
-	let meh = await conn.onWhatsApp(who)
-	if (meh.length == 0) return m.reply(`[!] Failed, @${(args[0] || '')} bukan pengguna WhatsApp.`, null, { mentions: [args[0]] })
-	if (!who) throw `tag atau ketik nomornya!`
-	if (who.includes(conn.user.jid.split`@`[0])) throw `[!] Tidak bisa mengirim *menfess* ke Bot`
-	who = meh[0].jid
-	if (!args[1]) throw `[!] Masukkan namamu`
-	if (!args[2]) throw `[!] Masukkan namamu`
-	if (args[2].length > 3000) throw `[!] Teks Kepanjangan`
-	let buffer, q = m.quoted ? m.quoted : m, mime = (q.msg || q).mimetype || q.mediaType || ''
-	if (/image|video|sticker|webp|audio/g.test(mime)) buffer = await q.download?.()
-	let target = `Hi Saya Bot, Ada Yang Kirim Pesan ${mime ? `*${mime}*` : '' } Ke Kamu\n\n*Dari* : ${args[1]}\n\n${mime ? `*${mime.includes('video') ? '🎬' : mime.includes('audio') ? '🎧' : '🎴'} Jenis Pesan :*\n*${mime}* di atas ☝ ☝ ☝\n\n` : ''}💌 *Isi Pesan :*\n${args[2]}\n\n_Tertarik mencoba ? Ketik *${usedPrefix + command}*_`
-	let senderr = `Mengirim Pesan ${mime ? `*${mime}*` : ''}\n👥 Untuk : wa.me/${who.split("@s.whatsapp.net")[0]}\n\n*Isi Pesan :*\n${args[2]}`
-	if (mime.includes('audio')) await conn.sendMessage(who, { audio: buffer, mimetype: 'audio/mpeg', ptt: true })
-	if (mime != '' && !mime.includes('audio')) {
-		if (mime.includes('webp')) {
-			await conn.sendMessage(who, { text: target })
-			await conn.sendMessage(m.sender, { text: senderr })
-		}
-		await conn.sendFile(who, buffer, '', target, null)
-		await conn.sendFile(m.sender, buffer, '', senderr, null)
-	} else {
-		await conn.reply(who, target, null)
-		await conn.reply(m.sender, senderr, m)
-	}
-	if (m.isGroup) await m.reply(`Sukses mengirim pesan *${mime ? mime : 'teks'}*`)
+/**
+ * Jangan Di Hapus!!
+ * 
+ * Buatan @FokusDotId (Fokus ID)
+ * Github: https://github.com/fokusdotid
+ * 
+ * Ingin bikin fitur tapi tidak bisa coding?
+ * hubungi: https://wa.me/6281228070013
+ * 
+ */
+
+let handler = async (m, { conn, text, usedPrefix, command }) => {
+    conn.menfess = conn.menfess ? conn.menfess : {}
+    if (!text) throw `*Cara penggunaan :*\n\n${usedPrefix + command} nomor|nama pengirim|pesan\n\n*Note:* nama pengirim boleh nama samaran atau anonymous.\n\n*Contoh:* ${usedPrefix + command} ${m.sender.split`@`[0]}|Wajan|Halo.`;
+    let [jid, name, pesan] = text.split('|');
+    if ((!jid || !name || !pesan)) throw `*Cara penggunaan :*\n\n${usedPrefix + command} nomor|nama pengirim|pesan\n\n*Note:* nama pengirim boleh nama samaran atau anonymous.\n\n*Contoh:* ${usedPrefix + command} ${m.sender.split`@`[0]}|Wajan|Halo.`;
+    jid = jid.replace(/[^0-9]/g, '') + '@s.whatsapp.net';
+    let data = (await conn.onWhatsApp(jid))[0] || {};
+    if (!data.exists) throw 'Nomer tidak terdaftar di whatsapp.';
+    if (jid == m.sender) throw 'tidak bisa mengirim pesan menfess ke diri sendiri.'
+    let mf = Object.values(conn.menfess).find(mf => mf.status === true)
+    if (mf) return !0
+    try {
+    	let id = + new Date
+        let txt = `Hai @${data.jid.split('@')[0]}, kamu menerima pesan Menfess nih.\n\nDari: *${name}*\nPesan: \n${pesan}\n\nMau balas pesan ini kak? bisa kak. kakak tinggal ketik pesan kakak nanti saya sampaikan ke *${name}*.`.trim();
+        await conn.sendButton(data.jid, txt, wm, ['Balas Pesan', '.balasmenfess'], null)
+        .then(() => {
+            m.reply('Berhasil mengirim pesan menfess.')
+            conn.menfess[id] = {
+                id,
+                dari: m.sender,
+                nama: name,
+                penerima: data.jid,
+                pesan: pesan,
+                status: false
+            }
+            return !0
+        })
+    } catch (e) {
+        console.log(e)
+        m.reply('eror');
+    }
 }
-
-handler.help = ['menfess <nomor|nama|pesan>']
 handler.tags = ['anonymous']
-handler.command = /^(me(m|n)fess?|chat)$/i
-
+handler.help = ['menfess', 'mf'].map(v => v + ' <nomor|nama pengirim|pesan>')
+handler.command = /^(mf|menfess)$/i
+handler.private = false
+handler.premium = true
 handler.limit = true
 
-export default handler 
+export default handler

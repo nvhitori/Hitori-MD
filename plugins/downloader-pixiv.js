@@ -13,7 +13,7 @@ let handler = async (m, { conn, text }) => {
 		await conn.sendMessage(m.chat, { [mime.split('/')[0]]: res.media[i], caption, mimetype: mime }, { quoted: m })
 	}
 }
-handler.help = handler.alias = ['pixiv']
+handler.help = ['pixiv']
 handler.tags = ['downloader']
 handler.command = /^(pixiv)$/i
 
