@@ -240,7 +240,7 @@ conn.sendButton(m.chat, 'Hello world!', '@BochilGaming', 'https://github.com/Boc
 2. Sebelum pakai jangan lupa kasih star
 3. Follow Github !
 4. Jangan salah gunakan script ini!
-5. Don't reupload this script! Forks only 
+5. Reupload? izin dulu lol
 ---------
 
 
