@@ -48,7 +48,7 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 // Wajib diisi ya kak!, kalo ga punya biarin aja, biar ada creditsnya :v
 global.sig = 'https://www.instagram.com/nvkenn_'
 global.sgh = 'https://github.com/nvhitori'
-global.sgc = 'https://chat.whatsapp.com/KKD87ysyynxL7l709hLjnw'
+global.sgc = 'https://chat.whatsapp.com/KL2YTdMq2np6QIhas42RCa'
 global.sdc = " "
 global.snh = 'https://xhitori.my.id'
 
@@ -91,7 +91,7 @@ global.APIs = { // API Prefix
   ana: 'https://anabotofc.herokuapp.com/',
   amel: 'https://melcanz.com',
   hardianto: 'https://hardianto.xyz',
-  botstyle: 'https://botstyle-api.herokuapp.com',
+  xgr4m: 'https://api.xgr4mteam.repl.co',
   adiisus: 'https://adiixyzapi.herokuapp.com',
   males: 'https://malesin.xyz'
 }
@@ -106,7 +106,7 @@ global.APIKeys = { // APIKey Here
   'https://melcanz.com': 'melcantik',
   'https://neoxr-api.herokuapp.com': 'yntkts',
   'https://server-api-rey.herokuapp.com': 'apirey',
-  'https://botstyle-api.herokuapp.com': 'Apikeymu',
+  'https://api.xgr4mteam.repl.co': 'xgram',
   'https://hardianto.xyz': 'hardianto',
   'https://leyscoders-api.herokuapp.com': 'dappakntlll'
 }
