@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://telegra.ph/file/9954da2569835fb0c7871.jpg">
+    <img src="https://telegra.ph/file/9954da2569835fb0c7871.jpg"> width="128" height="128"/>
 </p>
 <h1 align="center">H1TORI</h1>
 <p align="center">
