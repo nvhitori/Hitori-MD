@@ -7,11 +7,15 @@ let text = `
 ┌─「 Donasi • Non Pulsa 」
 │ • *Dana:* [${global.pdana}]
 ❏────
+
+┌─「 Donasi • Non Pulsa 」
+│ • *Saweria:* [${global.psaweria}]
+❏────
 `
 const templateButtons = [
-    {index: 1, urlButton: {displayText: '✨ Discord', url: psaweria}},
+    {index: 1, urlButton: {displayText: '✨ Group', url: sgc}},
     {index: 2, urlButton: {displayText: '📷 Instagram', url: sig}},
-    {index: 3, urlButton: {displayText: '🌎 Website', url: sgc}},
+    {index: 3, urlButton: {displayText: '🌎 Website', url: snh}},
     {index: 4, quickReplyButton: {displayText: 'Menu', id: '.menu'}},
     {index: 5, quickReplyButton: {displayText: 'Owner', id: '.owner'}},
 ]
